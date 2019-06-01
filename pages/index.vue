@@ -36,7 +36,7 @@
       Logo
     },
     created() {
-      console.log(process.env.DOMAIN)
+      console.log(process.env.ENDPOINT)
     },
     data() {
       return {

@@ -78,7 +78,7 @@ export default {
     },
     clientConfigs: {
       default: {
-        httpEndpoint: process.env.DOMAIN,
+        httpEndpoint: process.env.ENDPOINT,
         tokenName: process.env.TOKEN_NAME,
         persisting: false,
         websocketsOnly: false
